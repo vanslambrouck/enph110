@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>The Cost of Eating Local</title>
+    <title>Eating Local</title>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"
             integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
             crossorigin="anonymous">
@@ -38,6 +38,10 @@
             align-self: center;
         }
 
+        .w512 {
+            width: 512px;
+        }
+
         .w768 {
             width: 768px;
         }
@@ -49,6 +53,9 @@
         .margintop50 {
             margin-top: 50px;
         }
+        .mauto {
+            margin: auto;
+        }
 
         .inlineblock {
             display: inline-block;
@@ -58,9 +65,14 @@
             padding-left: 7.5px;
         }
 
-            #forward:hover, #back:hover {
-                color: green;
-            }
+        #forward:hover, #back:hover {
+            color: green;
+        }
+
+        h1 {
+            font-size: 4rem;
+            margin-bottom: 10px;
+        }
 
         hr {
             border-bottom: solid 1px grey;
@@ -111,16 +123,21 @@
     </style>
 </head>
 <body class="flex fdcolumn">
-    <h1 class="c">The Cost of Eating Local</h1>
+    <div class="flexselfcenter w768">
+        <h1 class="c"><i class="fa fa-cutlery fa-flip-horizontal" aria-hidden="true"></i> Eating Local <i class="fa fa-cutlery" aria-hidden="true"></i>
+</h1>
+        <div class="flexselfcenter">
+        <p class="c italic w512 mauto">A group project by Seth Vosters, David Van SlamBrouck, Emily Goeltl
+        for ENPH 110 Intro to Environmental Health
+        </p>
+        </div>
+
+    </div>
     <div class="c flexselfcenter">
-        <p>Course: ENPH 110 Intro to Environmental Health</p>
-        <p>Authors: Seth Vosters, David Van SlamBrouck, Emily Goeltl</p>
         <p class="w768">
-            Comparing the prices of fast food versus the cost of supermarket food and local food is important because it helps us decide where we should spend our money and why.
-            This topic is especially important because it involves agriculture and transportation of food which both have a large impact on the environment.
-            This topic is interesting because it allows us to examine how the convenience of fast food can outweigh the benefits of a well-planned diet with foods from supermarket chains.
-            Our goal in this project (website) is to increase our understanding of why foods are priced by researching how the food gets to fast food restaurants, supermarkets and local foods.
-            We hope that by creating this website that we can easily figure out the opportunity cost of buying food from different sources.
+            Eating local is a growing movement in many areas with the sudden re-popularity of community food events like Farmer’s Markets and local vendors working with grocers as is seen in many Food Cooperatives.
+            For our project we decided to look at some of the differences and benefits between eating local and some of the other conventual
+            methods as well as how people can potentially work to support, supply or bolster this movement within their communities.
         </p>
     </div>
     <div>
@@ -130,13 +147,13 @@
 
         <div class="inlineblock w768">
             <div class="content show">
-                <h2 class="c">The benefits/differences of eating local</h2>
+                <h2 class="c">The Benefits &amp; Differences of Eating Local</h2>
                 <p>
                     Where do you buy your food? Do you grow it in your own garden, purchase it from a farmer, a local supermarket, or a grocery store,
                     or do you go buy food at a fast food chain or restaurant? There are many options to buying food, yet some are overlooked more than others.
-                    Buying local foods for instance is something commonly done when one has the time to go to a farmers market or the local supermarket a couple times a week.
+                    Buying local foods for instance is something commonly done when one has the time to go to a farmer's market or the local supermarket a couple times a week.
                     Many find this practice inconvenient especially when one can go to the grocery store and find whatever item they are looking for even when it is not in season.
-                    There are many differences of eating local foods rather than imported foods that many people often look past.
+                    There are however, many other differences between eating local foods versus the other options that many people often overlook.
                 </p>
                 <p>
                     Local foods are defined as products grown 100 miles from where you live and purchased from farmers or local supermarkets.
@@ -149,10 +166,22 @@
                     There is no better way to understand where your food came from and how it was harvested than by talking to the person who grew it.
                 </p>
                 <p>
-                    In addition, imported foods that are traveling so far to reach your kitchen table do not only hurt the environment, but can be a risk to your health since chemicals and additives have been put in the food to make them stay fresher much longer than they naturally would. Over 2,8000 additives are used to modify the appearance of food. In addition, these imported foods have a chance of being contaminated during the food production process before reaching your table. Most imported foods are stored in storage areas before finding themselves on shelves in stores and may lose nutrients as it deteriorates over time. However, local foods are usually picked 24 hours before purchase meaning they taste better, are fresher, seasonal, and contain more nutrients. Within three days of harvests, most produce lose up to 30% of its nutrients. In a University of California study of vegetables were found to lose 15-55 percent of vitamin C within a week of harvest. Often times chemicals are used to preserve fresh produce when it needs to be stored elsewhere. The chemicals and pesticides added to the food can cause pollution in the environment and are a risk to one’s health.
+                    In addition, imported foods that are traveling so far to reach your kitchen table do not only hurt the environment, 
+                    but can be a risk to your health since chemicals and additives have been put in the food to make them stay fresher much 
+                    longer than they naturally would. According to the book Environmental Health by Kathryn Hilgenkamp, there are over 2,8000 different
+                    additives included in foods to modify them in one way or another such as overall appearnace or flavor <cite>(Hilgenkamp, 2006)</cite>.
+                    In addition, these 
+                    imported foods have a chance of being contaminated during the food production process before reaching your table.
+                    Most imported foods are stored in storage areas before finding themselves on shelves in stores and may lose nutrients 
+                    as it deteriorates over time. However, local foods are usually picked 24 hours before purchase meaning they taste better, 
+                    are fresher, seasonal, and contain more nutrients. Within three days of harvests, most produce lose up to 30% of its nutrients. 
+                    In an article published by the Chicago Tribune, they cited a study from the University of California that found 
+                    vegetables could lose anywhere from 15-55% of vitamin C within a week of harvest <cite>(Eng, 2013)</cite>. 
+                    Often times chemicals are used to preserve fresh produce when it needs to be stored elsewhere. The chemicals and pesticides added to the food can cause pollution in the environment and are a risk to one’s health.
                 </p>
                 <p>
-                    There are many difference of eating local and many of them benefit the environment and one’s personal health.
+                    However, these are not the only differences to be aware of when considering whether to eating local foods.  This brings us to the next
+                    topic we will cover, the cost.
 
                 </p>
             </div>
@@ -199,7 +228,8 @@
                         <img src="images/jlfeggs.jpg" class="comparePrice" />
                         <img src="images/weggs.jpg" class="comparePrice" />
                     </div>
-                    <p>Here we see Woodman’s is significantly higher in quantity and lower in price.</p>
+                    <p>Here we see Woodman’s is significantly higher in quantity and lower in price by $1.12 when comparing the two 12 count
+                    cartons.</p>
                 </div>
                 <div>
                     <h3>Milk</h3>
@@ -207,7 +237,8 @@
                         <img src="images/jlfmilk.jpg" class="comparePrice" />
                         <img src="images/wmilk.jpg" class="comparePrice" />
                     </div>
-                    <p>Here again we see that Woodman’s is ahead in the price category.</p>
+                    <p>In this case we see that Woodman’s is ahead in the price category in the range of $1.70-1.90 cheaper. It should be noted
+                    that both locations do offer the $1.50 bottle deposit as well.</p>
                 </div>
                 <div>
                     <h3>Lettuce</h3>
@@ -215,7 +246,8 @@
                         <img src="images/jlflettuce.jpg" class="comparePrice" />
                         <img src="images/wlettuce.jpg" class="comparePrice" />
                     </div>
-                    <p>This is one of the few produce items comparable due to non-traditional hydroponic growing in our area.  Yet still we see a price lead by Woodman’s here as well.</p>
+                    <p>This is one of the few produce items comparable due to non-traditional hydroponic growing available in our area.
+                    Yet still we see a price lead by Woodman’s here as well to the tune of .75&cent; for an identical item.</p>
                 </div>
                 <div>
                     <h3>Whole Chicken</h3>
@@ -223,7 +255,7 @@
                         <img src="images/jlfchicken.jpg" class="comparePrice" />
                         <img src="images/wchicken.jpg" class="comparePrice" />
                     </div>
-                    <p>In this case we see the same price is available at both locations.</p>
+                    <p>In this case we see the same price is actually identical at both locations.</p>
                 </div>
                 <div>
                     <h3>Pork Chops</h3>
@@ -231,7 +263,7 @@
                         <img src="images/jlfpork.jpg" class="comparePrice" />
                         <img src="images/wpork.jpg" class="comparePrice" />
                     </div>
-                    <p>Again, Woodman’s ahead by a fair amount per pound.</p>
+                    <p>Again, Woodman’s ahead by a fair amount per pound, $2.60 per pound to be exact.</p>
                 </div>
                 <div>
                     <h3>Ground Beef</h3>
@@ -239,7 +271,10 @@
                         <img src="images/jlfbeef.jpg" class="comparePrice" />
                         <img src="images/wbeef.jpg" class="comparePrice" />
                     </div>
-                    <p>Again, we see Woodman’s with the lower price point.</p>
+                    <p>Again, we see Woodman’s with the lower price point when compared to Just Local Food. In this case the difference is 
+                    pretty significant as the price is $2.50 more, which is essentially double. But keep in mind that might not be an exact 1:1 
+                    comparison as I was unable to determine the fat % content of the item at Just Local Food which is typipcally a strong price driver.
+                    </p>
                 </div>
                 <div>
                     <p>
@@ -247,8 +282,10 @@
                         From a purely logical standpoint that makes sense on just a measure of scale.  Because the local grocers have higher volume they can afford lower margins on products and still turn a profit.
                     </p>
                     <p>
-                        How does fast food compare?  While this is certainly a case of comparing Apples to Oranges in a sense that we are looking at ingredients vs. a
-                        finished product we can still do a quick glance to see if anything stands out.
+                        How does fast food compare?  While this is certainly a case of comparing Apples to Oranges in a sense that we are looking at 
+                        ingredients vs. a
+                        finished product we can still do a quick glance to see if anything stands out.  Using a pricing chart provided by ResturantFoodMenu.com
+                        we can see an example of a typical Culver's menu that we use to compare to.
                     </p>
                     <div>
                         <img src="images/culvers.jpg" />
@@ -325,6 +362,9 @@
     <div class="flexselfcenter w768">
         <p>References</p>
         <p class="hangingIndent"><span class="italic">Culver's Menu and Prices.</span> (2018). Retrieved from RestaurantFoodMenu: https://restaurantfood.menu/culvers-menu</p>
+        <p class="hangingIndent">Eng, M. (2013, July 10). <span class="italic">Most produce loses 30 percent of nutrients three days after harvest.</span> 
+            Retrieved from Chicago Tribune: http://articles.chicagotribune.com/2013-07-10/features/chi-most-produce-loses-30-percent-of-nutrients-three-days-after-harvest-20130710_1_harvest-farmers-vitamin-c</p>
+        <p class="hangingIndent">Hilgenkamp, K. (2006). Environmental Health: Ecological Perspectives. In K. Hilgenkamp, <span class="italic">Environmental Health: Ecological Perspectives</span> (p. 246). Sudbury, MA: Jones and Bartlett Publishers.</p>
         <p class="hangingIndent">Kahn, M. (2018, January 15). Employee. (D. V. SlamBrouck, Interviewer)</p>
         <p class="hangingIndent">Maciosek, C. (2018, January 15). Operations Manager. (D. V. SlamBrouck, Interviewer)</p>
         <p class="hangingIndent">USDA. (2012). <span class="italic">USDA Plant Hardiness Zone Map.</span> Retrieved from United States Department of Agriculture: http://planthardiness.ars.usda.gov/PHZMWeb/#</p>
@@ -349,6 +389,8 @@
                     $('#back2').removeClass("noshow");
                 }
 
+                $("html").scrollTop(0);
+
             });
 
             $('#back').click(function () {
@@ -365,6 +407,8 @@
                     $('#forward').removeClass("noshow");
                     $('#forward2').removeClass("noshow");
                 }
+
+                $("html").scrollTop(0);
 
             });
 
